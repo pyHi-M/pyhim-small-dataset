@@ -9,5 +9,5 @@
 # - {name: diffphase, datatype: float32}
 # schema: astropy-2.0
 "aligned file" "reference file" shift_x shift_y error diffphase
-scan_001_DAPI_005_ROI_converted_decon_ch01.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif -32.62 19.635834 1608.6375 0.0
-scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 5.0027275 -6.58 784.00604 0.0
+scan_001_DAPI_005_ROI_converted_decon_ch01.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif -32.6275 19.633333 1620.9946 0.0
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 5.0118184 -6.5845456 783.5863 0.0
