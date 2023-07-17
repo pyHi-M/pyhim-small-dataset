@@ -1,0 +1,49 @@
+{
+    "common": {
+        "acquisition": {
+            "DAPI_channel": "ch00",
+            "RNA_channel": "ch02",
+            "barcode_channel": "ch01",
+            "mask_channel": "ch01",
+            "fiducialBarcode_channel": "ch00",
+            "fiducialMask_channel": "ch00",
+            "fiducialDAPI_channel": "ch01",
+            "label_channel": "ch00",
+            "label_channel_fiducial": "ch01",
+            "fileNameRegExp": "scan_(?P<runNumber>[0-9]+)_(?P<cycle>[\\w|-]+)_(?P<roi>[0-9]+)_ROI_converted_decon_(?P<channel>[\\w|-]+).tif",
+            "parallelizePlanes": false,
+            "pixelSizeXY": 0.1,
+            "pixelSizeZ": 0.25,
+            "positionROIinformation": 3,
+            "zBinning": 2
+        },
+        "zProject": {
+            "blockSize": 128,
+            "display": true,
+            "folder": "zProject",
+            "mode": "manual",
+            "operation": "skip",
+            "saveImage": true,
+            "windowSecurity": 2,
+            "zProjectOption": "MIP",
+            "zmax": 70,
+            "zmin": 1,
+            "zwindows": 15
+        }
+    },
+    "labels": {
+        "DAPI": {
+            "order": 3,
+            "zProject": {
+                "mode": "manual",
+                "zProjectOption": "sum"
+            }
+        },
+        "barcode": {
+            "order": 2
+        },
+        "fiducial": {
+            "order": 1
+        }
+    }
+}
