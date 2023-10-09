@@ -1,0 +1,13 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: aligned file, datatype: string}
+# - {name: reference file, datatype: string}
+# - {name: shift_x, datatype: float32}
+# - {name: shift_y, datatype: float32}
+# - {name: error, datatype: float32}
+# - {name: diffphase, datatype: float32}
+# schema: astropy-2.0
+"aligned file" "reference file" shift_x shift_y error diffphase
+scan_001_DAPI_005_ROI_converted_decon_ch01.tif scan_001_RT27_005_ROI_converted_decon_ch00.tif -37.94 25.88 1771.3151 -2.6793932e-06
+scan_001_RT26_005_ROI_converted_decon_ch00.tif scan_001_RT27_005_ROI_converted_decon_ch00.tif -5.18 6.62 1003.01 9.661089e-06
