@@ -1,0 +1,50 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: reference file, datatype: string}
+# - {name: aligned file, datatype: string}
+# - {name: blockXY, datatype: int64}
+# - {name: 'ROI #', datatype: int64}
+# - {name: label, datatype: string}
+# - {name: block_i, datatype: int64}
+# - {name: block_j, datatype: int64}
+# - {name: shift_z, datatype: float32}
+# - {name: shift_x, datatype: float32}
+# - {name: shift_y, datatype: float32}
+# - {name: quality_xy, datatype: float32}
+# - {name: quality_zy, datatype: float32}
+# - {name: quality_zx, datatype: float32}
+# schema: astropy-2.0
+"reference file" "aligned file" blockXY "ROI #" label block_i block_j shift_z shift_x shift_y quality_xy quality_zy quality_zx
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 0 0 0.56 0.25 0.09 0.7296318 0.82355726 0.77696896
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 0 1 0.6 0.05 -0.1 0.51877284 0.46253112 0.43633252
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 0 2 0.61 0.01 0.15 0.2472685 0.3719531 0.35319406
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 0 3 0.74 0.05 0.27 0.72520655 0.8471432 0.85073185
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 1 0 0.47 0.24 0.03 0.64185065 0.6393684 0.5496797
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 1 1 -12.02 46.78 -47.93 1.2052399 1.2068187 1.2917355
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 1 2 0.68 0.14 0.09 0.4484029 0.3869224 0.50368524
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 1 3 0.57 -0.32 -0.29 0.97799134 1.0864114 0.9838044
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 2 0 0.82 0.08 -0.06 0.80892336 0.9370493 0.9409089
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 2 1 0.59 0.07 0.01 0.76400423 0.8634887 0.965478
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 2 2 9.21 7.22 -0.34 0.50779223 0.5995364 0.61889875
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 2 3 0.59 -0.01 0.18 0.9984883 1.0744001 1.0330651
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 3 0 0.53 0.18 0.15 0.7506088 0.83912927 0.66430706
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 3 1 0.54 0.08 0.03 0.6741101 0.6950262 0.66980755
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 3 2 -7.93 -61.05 22.44 1.2402964 1.050849 1.3046292
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_DAPI_005_ROI_converted_decon_ch01.tif 128 5 DAPI 3 3 -7.21 -8.33 -14.53 1.26666 0.5627216 1.42983
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 0 0 -0.08 0.29 0.05 0.6371739 0.65382653 0.5648336
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 0 1 -0.09 0.0 0.01 0.2134954 0.24219458 0.17974882
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 0 2 -0.07 -0.01 -0.01 0.21073924 0.25856522 0.2720675
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 0 3 -0.11 -0.13 0.22 0.41237673 0.46441132 0.5233153
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 1 0 -0.13 0.1 -0.06 0.46864906 0.65716165 0.50775087
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 1 1 -0.09 0.15 0.06 0.58733326 0.55873346 0.55318666
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 1 2 -0.11 -0.06 -0.02 0.38116425 0.4789374 0.5211877
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 1 3 0.0 -0.12 -0.12 0.14130956 0.13679044 0.16217743
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 2 0 -0.25 0.07 0.1 0.707256 0.42141235 0.7765466
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 2 1 0.01 0.02 0.11 0.46777922 0.8370509 0.42716935
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 2 2 -0.19 -0.56 -0.1 0.30509073 0.36398897 0.26376715
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 2 3 -0.03 -0.09 -0.1 0.19202982 0.4311646 0.38885835
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 3 0 -0.03 -0.03 0.23 0.5584928 0.48154262 0.38531128
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 3 1 -0.08 -0.12 0.0 0.24836634 0.30987248 0.403096
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 3 2 0.09 0.66 0.16 1.1081296 0.744161 0.95490533
+scan_001_RT27_005_ROI_converted_decon_ch00.tif scan_001_RT26_005_ROI_converted_decon_ch00.tif 128 5 RT26 3 3 -0.14 -0.13 1.07 1.1834903 0.9055733 1.6016041
