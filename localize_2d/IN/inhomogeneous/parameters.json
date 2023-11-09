@@ -9,19 +9,19 @@
             "zBinning": 2
         },
         "segmentedObjects": {
-            "operation": "2D",
+            "area_max": 3000,
+            "area_min": 150,
             "background_sigma": 3.0,
             "brightest": 1100,
             "centroidDifference_max": 5,
-            "folder": "segmentedObjects",
             "fwhm": 3.0,
             "intensity_max": 59,
             "intensity_min": 0,
+            "localize_2d_folder": "segmentedObjects",
+            "operation": "2D",
             "outputFile": "segmentedObjects",
             "residual_max": 2.5,
             "sigma_max": 5,
-            "area_max": 3000,
-            "area_min": 150,
             "threshold_over_std": 1.0
         }
     },
