@@ -94,9 +94,6 @@
                 "_3Dmethod": "stardist",
                 "area_max": 500,
                 "area_min": 50
-            },
-            "zProject": {
-                "z_project_option": "sum"
             }
         },
         "fiducial": {},
