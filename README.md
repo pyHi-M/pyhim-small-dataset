@@ -2,13 +2,19 @@
 
 ![](docs/website_illustration.png)
 
-# pyHiM
+# pyHiM small dataset
 
 *pyHiM* implements the analysis of multiplexed DNA-FISH data, as described in our [Hi-M paper](https://www.nature.com/articles/s41596-019-0269-9).
 
-## Documentation
+This repository provides a small dataset to perform non-regression tests of pyHiM. 
+
+This dataset needs to be downloaded to test pyHiM, particularly if you are a developer and want to contribute to the project.
+
+## pyHiM documentation
 
 Find the full documentation in [ReadtheDocs](https://pyhim.readthedocs.io/en/latest/). 
+
+This documentation also indicates how to perform tests [see Developer's section](https://pyhim.readthedocs.io/en/stable/contributor/dev_installation.html). 
 
 To install, please follow the instructions [here](https://pyhim.readthedocs.io/en/latest/getting_started/quick_install.html).
 
